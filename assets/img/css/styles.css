@@ -1,3 +1,8 @@
+body {
+    background-color: #f0f8ff; /* Color de fondo de la página */
+    color: #333; /* Color del texto */
+}
+
 .hero {
     background: url('tu-imagen-de-fondo.jpg') no-repeat center center;
     background-size: cover;
@@ -38,11 +43,24 @@
     padding: 0;
 }
 .feature ul li {
-    background: #f8f9fa;
+    background: #e6f7ff; /* Color de fondo de los elementos de la lista */
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
 }
+.feature .descripcion {
+    font-size: 1.5rem; /* Tamaño de fuente más grande para la descripción */
+}
 .gallery .col-md-4 {
     margin-bottom: 20px;
+}
+.play-store-icon {
+    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff; /* Cambia el color aquí */
+    border-radius: 50%;
+    padding: 10px;
 }
